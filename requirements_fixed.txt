@@ -1,0 +1,5 @@
+g2pK==0.9.4
+librosa==0.8.0
+matplotlib==3.3.1
+scipy==1.5.2
+torch==1.6.0
