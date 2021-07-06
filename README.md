@@ -1,3 +1,15 @@
+# Korean FastSpeech2 CPU Inference Time Check
+
+CPU 상에서 FastSpeech2 를 실행합니다.
+
+Text-to-Speech 음성 파일을 생성하며, CPU 추론 시간을 측정합니다.
+
+아래의 구글 코랩 링크를 실행해주세요.
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1GPCCijL_abShunPmPddUxD20BVK7jHqk?usp=sharing)
+
+forked from [HGU-DLLAB/Korean-FastSpeech2-Pytorch](https://github.com/HGU-DLLAB/Korean-FastSpeech2-Pytorch)
+
 # Korean FastSpeech 2 - Pytorch Implementation
 
 ![](./assets/model.png)
