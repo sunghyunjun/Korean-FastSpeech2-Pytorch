@@ -110,7 +110,7 @@ def get_mask_from_lengths(lengths, max_len=None):
 
 def get_vocgan(ckpt_path, n_mel_channels=hp.n_mel_channels, generator_ratio = [4, 4, 2, 2, 2, 2], n_residual_layers=4, mult=256, out_channels=1):
 
-    checkpoint = torch.load(ckpt_path)
+    checkpoint = torch.load(ckpt_path, map_location=device)
     model = Generator(n_mel_channels, n_residual_layers,
                         ratios=generator_ratio, mult=mult,
                         out_band=out_channels)
